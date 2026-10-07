@@ -1,0 +1,183 @@
+{
+  "states": [
+    {
+      "phase": 0,
+      "heroTransform": "",
+      "editorialOpacity": "1",
+      "collectionTransform": "translateY(-900px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 14.997098709097557,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0.25,
+      "heroTransform": "translate3d(-53.4375px, 11.25px, 0px) scale(0.953125)",
+      "editorialOpacity": "0.316406",
+      "collectionTransform": "translateY(-675px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0.5,
+      "heroTransform": "translate3d(-171px, 36px, 0px) scale(0.85)",
+      "editorialOpacity": "0",
+      "collectionTransform": "translateY(-450px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0.65,
+      "heroTransform": "translate3d(-245.642px, 51.714px, 0px) scale(0.784525)",
+      "editorialOpacity": "0",
+      "collectionTransform": "translateY(-315px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "heroTransform": "translate3d(-342px, 72px, 0px) scale(0.7)",
+      "editorialOpacity": "0",
+      "collectionTransform": "",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0.65,
+      "heroTransform": "translate3d(-245.642px, 51.714px, 0px) scale(0.784525)",
+      "editorialOpacity": "0",
+      "collectionTransform": "translateY(-315px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0.25,
+      "heroTransform": "translate3d(-53.4375px, 11.25px, 0px) scale(0.953125)",
+      "editorialOpacity": "0.316406",
+      "collectionTransform": "translateY(-675px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "heroTransform": "",
+      "editorialOpacity": "1",
+      "collectionTransform": "translateY(-900px)",
+      "overflow": false,
+      "video": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "paused": true
+        },
+        {
+          "time": 15,
+          "target": 15,
+          "paused": true
+        }
+      ]
+    }
+  ],
+  "initial": {
+    "left": 132.46875,
+    "travel": 6440,
+    "frame": {
+      "x": 619.1875,
+      "y": 108,
+      "width": 936,
+      "height": 720,
+      "top": 108,
+      "right": 1555.1875,
+      "bottom": 828,
+      "left": 619.1875
+    },
+    "video": [
+      {
+        "time": 0,
+        "target": 0,
+        "paused": true
+      },
+      {
+        "time": 0,
+        "target": 0,
+        "paused": true
+      }
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,246 @@
+{
+  "scroll": [
+    {
+      "label": "slow Watch 01",
+      "steps": 60,
+      "delayMs": 100,
+      "settled": true,
+      "allPaused": true,
+      "seeks": [
+        79,
+        0,
+        0
+      ],
+      "latency": [
+        {
+          "meanMs": 85,
+          "maxMs": 255
+        },
+        {
+          "meanMs": 33,
+          "maxMs": 109
+        },
+        {
+          "meanMs": 56,
+          "maxMs": 132
+        }
+      ]
+    },
+    {
+      "label": "continuous full forward",
+      "steps": 100,
+      "delayMs": 20,
+      "settled": true,
+      "allPaused": true,
+      "seeks": [
+        19,
+        18,
+        24
+      ],
+      "latency": [
+        {
+          "meanMs": 85,
+          "maxMs": 730
+        },
+        {
+          "meanMs": 41,
+          "maxMs": 278
+        },
+        {
+          "meanMs": 60,
+          "maxMs": 316
+        }
+      ]
+    },
+    {
+      "label": "continuous full reverse",
+      "steps": 100,
+      "delayMs": 20,
+      "settled": true,
+      "allPaused": true,
+      "seeks": [
+        15,
+        8,
+        20
+      ],
+      "latency": [
+        {
+          "meanMs": 86,
+          "maxMs": 730
+        },
+        {
+          "meanMs": 51,
+          "maxMs": 286
+        },
+        {
+          "meanMs": 63,
+          "maxMs": 440
+        }
+      ]
+    },
+    {
+      "label": "fast jump to end",
+      "steps": 1,
+      "delayMs": 0,
+      "settled": true,
+      "allPaused": true,
+      "seeks": [
+        3,
+        3,
+        6
+      ],
+      "latency": [
+        {
+          "meanMs": 90,
+          "maxMs": 730
+        },
+        {
+          "meanMs": 55,
+          "maxMs": 286
+        },
+        {
+          "meanMs": 68,
+          "maxMs": 440
+        }
+      ]
+    },
+    {
+      "label": "fast jump to start",
+      "steps": 1,
+      "delayMs": 0,
+      "settled": true,
+      "allPaused": true,
+      "seeks": [
+        6,
+        2,
+        2
+      ],
+      "latency": [
+        {
+          "meanMs": 89,
+          "maxMs": 730
+        },
+        {
+          "meanMs": 55,
+          "maxMs": 286
+        },
+        {
+          "meanMs": 68,
+          "maxMs": 440
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "watch-01",
+      "progress": 0
+    },
+    {
+      "name": "water-beginning",
+      "progress": 0.39
+    },
+    {
+      "name": "water-peak",
+      "progress": 0.48
+    },
+    {
+      "name": "watch-02-emerging",
+      "progress": 0.6
+    },
+    {
+      "name": "watch-02",
+      "progress": 0.82
+    }
+  ],
+  "wide": {
+    "overflow": false,
+    "stageHeight": 1080,
+    "viewport": 1080
+  },
+  "mobile": {
+    "overflow": false,
+    "stageHeight": 844,
+    "viewport": 844,
+    "state": {
+      "target": 0.6000846381718155,
+      "progress": 0.6001841794476769,
+      "reducedMotion": false,
+      "travel": 4726,
+      "channels": [
+        {
+          "time": 7.583333,
+          "target": 7.583333333333333,
+          "ready": true,
+          "seeking": false,
+          "paused": true,
+          "seeks": 160,
+          "meanSeekMs": 92.96673748576919,
+          "maxSeekMs": 729.8000000000029
+        },
+        {
+          "time": 1.8,
+          "target": 1.7844077134447816,
+          "ready": true,
+          "seeking": false,
+          "paused": true,
+          "seeks": 108,
+          "meanSeekMs": 53.762037024785364,
+          "maxSeekMs": 286.2999999642343
+        },
+        {
+          "time": 1.36,
+          "target": 1.36981306556448,
+          "ready": true,
+          "seeking": false,
+          "paused": true,
+          "seeks": 118,
+          "meanSeekMs": 65.96271185319321,
+          "maxSeekMs": 439.99999996423867
+        }
+      ]
+    }
+  },
+  "reducedMotion": {
+    "before": 2.5,
+    "after": 2.5,
+    "unchanged": true,
+    "allPaused": true,
+    "scrollHeight": 844,
+    "viewport": 844
+  },
+  "nativeWheel": {
+    "nativeWheelForward": {
+      "y": 900,
+      "time": 2.625,
+      "target": 2.6101788778339956
+    },
+    "nativeWheelReverse": {
+      "y": 0,
+      "time": 0
+    }
+  },
+  "consoleErrors": 0,
+  "runtimeErrors": 0,
+  "boundaryChecks": {
+    "forward": [
+      0.32,
+      0.4,
+      0.44,
+      0.48,
+      0.52,
+      0.58,
+      0.67,
+      0.68,
+      1
+    ],
+    "reverse": [
+      0.68,
+      0.52,
+      0.44,
+      0.32,
+      0
+    ],
+    "passed": true
+  }
+}

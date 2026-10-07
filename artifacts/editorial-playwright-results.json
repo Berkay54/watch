@@ -1,0 +1,157 @@
+{
+  "initialLoad": true,
+  "reverseAudit": {
+    "passed": true,
+    "points": [
+      0.34,
+      0.35714285714285715,
+      0.39,
+      0.45,
+      0.48,
+      0.495,
+      0.5,
+      0.505,
+      0.52,
+      0.55,
+      0.6,
+      0.6428571428571429,
+      0.68,
+      0.9,
+      1
+    ],
+    "comparison": "Exact settled transforms, visibility, story opacity, and quantized media times; forward versus reverse.",
+    "mismatches": []
+  },
+  "scrollTests": [
+    {
+      "name": "slow Watch 01",
+      "steps": 72,
+      "delayMs": 70,
+      "passed": true,
+      "meanSeekMs": [
+        2,
+        57
+      ],
+      "maxSeekMs": [
+        34,
+        152
+      ]
+    },
+    {
+      "name": "continuous forward",
+      "steps": 120,
+      "delayMs": 16,
+      "passed": true,
+      "meanSeekMs": [
+        2,
+        61
+      ],
+      "maxSeekMs": [
+        34,
+        152
+      ]
+    },
+    {
+      "name": "continuous reverse",
+      "steps": 120,
+      "delayMs": 16,
+      "passed": true,
+      "meanSeekMs": [
+        2,
+        61
+      ],
+      "maxSeekMs": [
+        34,
+        269
+      ]
+    },
+    {
+      "name": "fast forward",
+      "passed": true
+    },
+    {
+      "name": "fast reverse",
+      "passed": true
+    }
+  ],
+  "nativeWheel": {
+    "scrollY": 800,
+    "watch01Time": 2.166666
+  },
+  "navigation": {
+    "heritageOpens": true,
+    "escapeCloses": true,
+    "discoverProgress": 0.6428571428571429
+  },
+  "noWaterRequests": true,
+  "consoleErrors": 0,
+  "runtimeErrors": 0,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "height": 600,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false
+    }
+  ],
+  "reducedMotion": {
+    "bothModelsPresented": true,
+    "stills": 2,
+    "timesBefore": [
+      2.5,
+      1
+    ],
+    "timesAfter": [
+      2.5,
+      1
+    ],
+    "stillsHiddenAfterReturningToMotion": true
+  },
+  "visualCaptures": [
+    "editorial-A.png",
+    "editorial-B.png",
+    "editorial-C.png",
+    "editorial-D.png",
+    "editorial-E.png",
+    "editorial-F.png",
+    "editorial-G.png"
+  ],
+  "allCapturesVisuallyInspected": true,
+  "benchmark": [
+    {
+      "file": "watch-01.mp4",
+      "duration": 7.625,
+      "width": 3840,
+      "height": 2160,
+      "samples": 60,
+      "meanMs": 133.90833333333333,
+      "p95Ms": 237.10000002384186,
+      "maxMs": 246.30000001192093
+    },
+    {
+      "file": "watch-01-scrub.mp4",
+      "duration": 7.625,
+      "width": 1920,
+      "height": 1080,
+      "samples": 60,
+      "meanMs": 5.998333332935969,
+      "p95Ms": 6.199999988079071,
+      "maxMs": 21
+    }
+  ],
+  "derivativeSSIMAt1080": 0.99339
+}

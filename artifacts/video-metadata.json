@@ -1,0 +1,46 @@
+[
+  {
+    "name": "watch-01.mp4",
+    "bytes": 12056037,
+    "duration": 7.625,
+    "width": 3840,
+    "height": 2160,
+    "fps": 24,
+    "frames": 183,
+    "keyframes": [
+      0
+    ],
+    "keyframeMaxGap": null
+  },
+  {
+    "name": "watch-02.mp4",
+    "bytes": 22640764,
+    "duration": 8.24,
+    "width": 3840,
+    "height": 2160,
+    "fps": 25,
+    "frames": 206,
+    "keyframes": [
+      0,
+      3.04,
+      6.08
+    ],
+    "keyframeMaxGap": 3.04
+  },
+  {
+    "name": "water-transition.mp4",
+    "bytes": 402079,
+    "duration": 10.84,
+    "width": 720,
+    "height": 1280,
+    "fps": 25,
+    "frames": 271,
+    "keyframes": [
+      0,
+      3.04,
+      6.08,
+      9.12
+    ],
+    "keyframeMaxGap": 3.04
+  }
+]

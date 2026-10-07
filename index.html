@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080A09">
+  <meta name="description" content="An editorial study of precision and endurance in mechanical timekeeping.">
+  <title>Aurel — Studies in time</title>
+  <link rel="stylesheet" href="/src/scene.css">
+  <link rel="stylesheet" href="/src/campaign.css">
+  <script type="module" src="/src/scene.js"></script>
+</head>
+<body>
+  <main class="campaign">
+  <section class="film" aria-label="Watch collection. Scroll to advance the film; scroll up to reverse.">
+    <div class="stage">
+      <header class="masthead">
+        <a class="wordmark" href="#watch-01" aria-label="Aurel, first watch">AUREL<span>Atelier horloger</span></a>
+        <nav aria-label="Campaign">
+          <a href="#watch-01">Watches</a>
+          <a href="#craft">Craft</a>
+          <button type="button" aria-expanded="false" aria-controls="heritage-note">Heritage</button>
+          <a href="#watch-02">Discover <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+      <p id="heritage-note" hidden>A study of mechanical watchmaking.<br>Precision, carried forward.</p>
+      <div class="product-stage" aria-hidden="true"></div>
+      <div class="editorial-stage"></div>
+      <div class="edition">Studies in time <span>Collection / 2026</span></div>
+      <div class="scroll-note"><span class="scroll-rule" aria-hidden="true"></span><span>Scroll to discover</span></div>
+      <div class="position"><span class="position-rule"></span></div>
+      <p class="status" role="status">Preparing the film</p>
+    </div>
+  </section>
+
+    <section class="collection lower-scene" id="collection" aria-labelledby="collection-title">
+      <div class="collection-intro section-pad">
+        <p class="section-index">01 / The collection</p>
+        <h2 id="collection-title">Time, in its<br><em>many expressions.</em></h2>
+        <p class="intro-note">Three studies in character.<br>One pursuit of precision.</p>
+      </div>
+      <div class="gallery-field" role="region" aria-roledescription="carousel" aria-label="The Aurel collection" tabindex="0">
+        <div class="gallery-plates"></div>
+        <span class="gallery-side-label">Aurel / Mechanical studies</span>
+        <span class="gallery-instruction">Drag to explore</span>
+      </div>
+      <div class="collection-detail section-pad">
+        <div class="piece-identity">
+          <div class="roll-line"><span class="piece-index">01 / 03</span></div>
+          <div class="roll-line"><h3 class="piece-name">Skeleton</h3></div>
+          <div class="roll-line"><span class="piece-calibre">Calibre 01</span></div>
+        </div>
+        <div class="piece-specification">
+          <div class="roll-line"><span class="piece-movement">Automatic movement</span></div>
+          <div class="roll-line"><span class="piece-case">42mm case</span></div>
+          <div class="roll-line"><span class="piece-crystal">Sapphire crystal</span></div>
+          <button class="text-link piece-discover" type="button" aria-expanded="false" aria-controls="piece-note">Discover the piece <span aria-hidden="true">↗</span></button>
+          <p id="piece-note" hidden></p>
+        </div>
+        <div class="gallery-controls">
+          <button type="button" class="gallery-prev" aria-label="Previous watch">←</button>
+          <span class="gallery-count" aria-hidden="true">01 <span>/ 03</span></span>
+          <button type="button" class="gallery-next" aria-label="Next watch">→</button>
+        </div>
+        <p class="sr-only gallery-announcement" aria-live="polite" aria-atomic="true"></p>
+      </div>
+    </section>
+
+    <section class="craft lower-scene" id="craft" aria-labelledby="craft-title">
+      <div class="craft-visual">
+        <div class="craft-aperture"><img src="/public/images/craft-mechanism.jpg" alt="Brushed silver movement, copper gears, and a precision balance assembly" loading="lazy" decoding="async" width="1600" height="900"></div>
+        <p class="image-annotation"><span>Fig. 01 — The balance</span><span>A world within a movement.</span></p>
+      </div>
+      <div class="craft-copy">
+        <p class="section-index">02 / Inside the atelier</p>
+        <h2 id="craft-title">Crafted beyond<br><em>the visible.</em></h2>
+        <p class="editorial-copy">Every component exists for a reason.<br>Every movement begins with precision.</p>
+        <span class="technical-note">Measured in microns.<br>Understood through time.</span>
+      </div>
+    </section>
+
+    <section class="heritage lower-scene section-pad" id="heritage" aria-labelledby="heritage-title">
+      <div class="heritage-heading">
+        <p class="section-index">03 / The enduring idea</p>
+        <p class="heritage-date">Est. 1958</p>
+        <h2 id="heritage-title">Time, refined<br>through<br><em>generations.</em></h2>
+      </div>
+      <figure class="heritage-plate">
+        <img src="/public/images/collection-heritage.webp" alt="Ivory vintage dial, fine blue hands, and a patinated gold case" loading="lazy" decoding="async" width="1024" height="1536">
+        <figcaption>Archive study No. 03<span>Some things are made to remain.</span></figcaption>
+      </figure>
+      <p class="heritage-note">A quiet inheritance.<br>A continuing conversation<br>between hand and time.</p>
+    </section>
+
+    <section class="closing lower-scene" aria-labelledby="closing-title">
+      <p class="section-index closing-kicker">For the time that is yours.</p>
+      <h2 id="closing-title">AUREL</h2>
+      <div class="closing-product"><img src="/public/images/collection-steel.webp" alt="The Aurel steel watch in a dark studio" loading="lazy" decoding="async" width="1024" height="1536"></div>
+      <a class="text-link closing-link" href="#collection">Discover the collection <span aria-hidden="true">↗</span></a>
+      <span class="closing-signature">Atelier horloger</span>
+    </section>
+    <footer class="legal-line section-pad"><span>© 2026 Aurel</span><span>An independent portfolio concept. Fictional collection &amp; heritage.</span><a href="#watch-01">Back to the beginning ↑</a></footer>
+
+  </main>
+</body>
+</html>

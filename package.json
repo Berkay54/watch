@@ -1,0 +1,12 @@
+{
+  "name": "watch-cinematic-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check src/scene.js && node --check src/models.js && node --check server.mjs && node --check src/campaign.js",
+    "media:inspect": "node scripts/inspect-media.mjs",
+    "media:optimize": "node scripts/optimize-watch.mjs"
+  }
+}
